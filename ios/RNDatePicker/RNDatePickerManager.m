@@ -80,7 +80,7 @@ RCT_EXPORT_METHOD(openPicker:(NSDictionary *) props
         CGRect bounds = picker.bounds;
         
         // picker width
-        int widthPx = iPad ? 320 : alertController.view.bounds.size.width - 15;
+        int widthPx = iPad ? 320 : 300;
         bounds.size.width = widthPx;
 
         // top padding
